@@ -23,7 +23,8 @@
   cd res-web
   
   # 使用 npm http-server 包来启动本地静态服务器
-  http-server src
+  # 需要安装 nodejs 并 `npm install -g http-server` 包
+  http-server src
   
   # 打开浏览器,输入地址 localhost:8080/
   
